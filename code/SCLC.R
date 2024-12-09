@@ -17,10 +17,10 @@ fishnet <- st_read("gis/fishnet/All_Africa_fishnet_50k_proj.shp")
 fishnet <- fishnet[!duplicated(fishnet$geometry),] # Get rid of duplicates
 fishnet$ID <- 1:nrow(fishnet) # Make an unique ID column
 
-# Dyadic event dataset
+# Dyadic event dataset, created separately from ACLED data
 dyads <- read.csv("data/Networks/dyadsJune2023AFRICA.csv")
 
-# Remove imprecisely-coded events
+# Remove imprecisely-geolocated events
 dyads <- dyads[dyads$geo_precision != 3,]
 
 # Remove duplicated dyads
