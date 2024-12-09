@@ -6,7 +6,7 @@ __Corresponding author__ = Dr. Olivier Walther, owalther@ufl.edu, University of 
 The Spatial Conflict Life Cycle indicator (SCLCi) is a gridded metric that tracks how the number of conflict actors and the percentage of negative (conflictual) dyadic conflict ties changes year-to-year in a region.
 
 The SCLCi divides the continent of Africa into 15,289 50km by 50km grid cells and incorporates data on over 179,000 events of political violence from the 
-[Armed Conflict Location & Event Data Project (ACLED)](https://acleddata.com/data-export-tool/). We transform this event data into over 282,000 dyadic ties to model the networks of alliances and rivalries that characterize conflict.
+[Armed Conflict Location & Event Data Project (ACLED)](https://acleddata.com/data-export-tool/), beginning in 2000. We transform this event data into over 282,000 dyadic ties to model the networks of alliances and rivalries that characterize conflict.
 
 The resulting SCLCi categorizes each grid cell into one of five types for each year:
 - 0 No conflict
